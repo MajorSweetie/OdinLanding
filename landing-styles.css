@@ -1,0 +1,273 @@
+
+* {
+    font-family: Roboto;
+}
+
+body { min-height: 100vh;
+background-color: #1F2937;
+flex-direction: column;
+
+}
+
+.header, ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 230px;
+    
+    
+    
+    
+}
+
+
+
+
+.logo { padding:5px;
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 8px;
+    
+
+
+}
+
+.headerlinks ul { display:flex;
+    gap: 20px;
+    padding: 5px;
+    
+    
+   
+
+
+}
+
+a, .maintext { text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+
+    
+}
+
+li { list-style-type: none;
+
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+}
+
+.left { display: flex;
+ flex-direction: column;
+ gap:10px;
+ width: 350px;
+ padding: 10px 0px 10px 10px;  
+ height: 150px;
+}
+
+.right {display:flex;
+flex-direction: column;
+
+}
+
+.title { color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.signup {
+    width: 100px
+}
+
+
+
+button { background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+
+
+    
+}
+
+.placeholder { width:400px;
+    height:200px;
+    color:black;
+    background-color: rgb(123, 123, 129);
+    margin-top: 20px;
+    
+   
+}
+
+.flexhead {
+    text-align: center;
+    font-size: 36px;  
+    color:#1F2937;
+    font-weight: 900; 
+    padding-top: 20px;
+}
+
+.sectiontwo {
+    background-color: #F9FAF8;
+    height: 30%;
+    margin-top: 80px;
+    
+}
+
+
+    
+.boxone, .boxtwo, .boxthree, .boxfour {
+
+    border: #3882F6 solid 2px;
+    border-radius: 10px;
+    background-color: #F9FAF8;
+    margin: 20px 10px 0px 10px;
+    padding: 5px 5px 0px 5px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.cubecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 10px;
+    margin: auto;
+    
+    
+}
+
+.boxtextone, .boxtexttwo, .boxtextthree, .boxtextfour {
+    width: 100px;
+    padding: 0px 5px 5px 10px;
+    margin: 0 0 20px 0;
+    
+
+}
+
+.cubecontainer > * {
+    flex: 1 1 90px;
+    
+}
+
+.sectionthree {
+    background-color: #E5E7EB;
+    min-height: 25%;
+    
+    
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+
+.quote { font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    width: 600px;
+    margin-bottom: 0;
+    flex-shrink: 1;
+    background-color: #E5E7EB;
+    padding-top: 10px;
+  
+}
+
+.dannydevito {
+   margin-top: 0;
+   font-weight: 700;
+   padding-left: 400px;
+
+   ;
+   
+   
+}
+
+.partfour {
+    min-height: 20%;
+    display: flex;
+    background-color: #F9FAF8;
+    justify-content: center;
+    
+}
+
+.rectangle {
+   
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 700px;
+    padding: 30px;
+    margin: 30px;
+    height: 80px;
+    display: flex;
+    
+    
+    
+    
+    
+   
+}
+.rectanglecontainer {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 10px;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 20px;
+
+    
+    
+}
+
+.butter {
+    color: #3882F6;
+    border: white solid 1px;
+    color: #F9FAF8;
+    padding:5px;
+    height: 30px;
+    width: 80px;
+    align-self: center;
+   
+    
+   
+    
+  
+    
+
+    
+    
+}
+
+.up {
+    padding: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F9FAF8;
+    
+   
+}
+    
+.down {
+    padding: 5px;
+    color: #F9FAF8;
+    
+}
+
+
+
+
+
