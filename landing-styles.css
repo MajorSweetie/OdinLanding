@@ -214,3 +214,13 @@ button {
   padding: 5px;
   color: #f9faf8;
 }
+
+.footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+  padding: 5px;
+  display: flex;
+  color: #f9faf8;
+}
